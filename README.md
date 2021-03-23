@@ -34,7 +34,8 @@ Company requires an API to be able to handle messages internally within the comp
 User table
  
 Message table
- 
+![Message table](https://user-images.githubusercontent.com/72204705/112217440-8c8cad00-8c1a-11eb-8408-f1b88c710eb5.png)
+
 -	Create user: 
     -	POST method
     -	api/users
