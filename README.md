@@ -31,6 +31,7 @@ Company requires an API to be able to handle messages internally within the comp
 -	Two tables, User and Message
 -	User table holds records of all users and their associated attributes: user ID, user name and employee number (as a unique identifier of Perry’s employees to prevent duplicate user profiles being created – could be modified to be email/phone number, etc. once it is unique to the employee)
 -	Message table holds records of all messages and their associated attributes: message ID, content of message, datetime message is sent, sender, receiver (sender and receiver cannot be the same)
+
 User table
 
 ![User table](https://user-images.githubusercontent.com/72204705/112217762-cfe71b80-8c1a-11eb-8125-8bdbc59d7e19.png)
