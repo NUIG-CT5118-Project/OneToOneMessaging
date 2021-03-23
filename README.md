@@ -75,6 +75,7 @@ Message table
 ### Create user:
 
 CREATING USER WITH UNIQUE EMPLOYEE NUMBER:
+
 Call using Postman:
 
 ![PMcreateuser1](https://user-images.githubusercontent.com/72204705/112217868-ed1bea00-8c1a-11eb-8238-281f336c20da.png)
@@ -86,6 +87,7 @@ Database table has been updated:
 
  
 CREATING USER WITH A REPEATED EMPLOYEE NUMBER:
+
 Call using Postman:
 
 ![PMcreateuser2](https://user-images.githubusercontent.com/72204705/112218002-18063e00-8c1b-11eb-9425-bcda2e15ff2d.png)
@@ -104,6 +106,7 @@ Error has been thrown:
 ### Get all users:
 
 GET ALL USERS:
+
 Call using Postman:
 
 ![PMgetallusers](https://user-images.githubusercontent.com/72204705/112218156-513eae00-8c1b-11eb-8261-e0c81d27735e.png)
@@ -116,6 +119,7 @@ All users in database:
  
 ### Get a user by ID:
 GETTING USER IN DATABASE:
+
 Call using Postman:
 
 ![PMgetuser1](https://user-images.githubusercontent.com/72204705/112218313-7af7d500-8c1b-11eb-9492-7296c75677ae.png)
@@ -127,6 +131,7 @@ The user with ID 1 in database:
  
 
 GETTING USER NOT IN DATABASE:
+
 Call using Postman:
 
 ![PMgetuser2](https://user-images.githubusercontent.com/72204705/112218520-b4c8db80-8c1b-11eb-8727-a869803389d8.png)
@@ -145,6 +150,7 @@ Error thrown:
 ### Create message with one sender and one recipient:
 
 CREATE MESSAGE WITH REGISTERED, DIFFERENT USERS:
+
 Database before:
 
 ![DBcreatemessage1 1](https://user-images.githubusercontent.com/72204705/112218782-0e310a80-8c1c-11eb-932b-da710fb31ce1.png)
@@ -161,6 +167,7 @@ Database after:
 
  
 CREATE MESSAGE WITH AN UNREGISTERED USER:
+
 Call using Postman:
 
 ![PMcreatemessage2](https://user-images.githubusercontent.com/72204705/112218925-40db0300-8c1c-11eb-9161-42df0e3b19e6.png)
@@ -177,6 +184,7 @@ Error thrown:
 
  
 CREATE MESSAGE WITH SAME SENDER AND RECEIVER:
+
 Call using Postman:
 
 ![PMcreatemessage3](https://user-images.githubusercontent.com/72204705/112219087-741d9200-8c1c-11eb-8917-2725a21ca1ea.png)
@@ -190,6 +198,7 @@ Error thrown:
 ### Edit a message:
 
 EDIT MESSAGE IN DATABASE:
+
 Call using Postman:
 
 ![PMeditmessage1](https://user-images.githubusercontent.com/72204705/112219192-93b4ba80-8c1c-11eb-901b-f56557d19955.png)
@@ -201,6 +210,7 @@ Update in database:
  
 
 EDIT MESSAGE NOT IN DATABASE:
+
 Call using Postman:
 
 ![PMeditmessage2](https://user-images.githubusercontent.com/72204705/112219319-b9da5a80-8c1c-11eb-986b-2157d9a0af8a.png)
@@ -213,6 +223,7 @@ Error thrown:
  
 
 EDIT MESSAGE SENDER OR RECEIVER:
+
 Call using Postman:
 
 ![PMeditmessage3](https://user-images.githubusercontent.com/72204705/112219408-d8405600-8c1c-11eb-942c-9a7dcd257fa6.png)
@@ -226,6 +237,7 @@ Update in database:
 ### Delete A Message:
 
 DELETE MESSAGE:
+
 Call using Postman:
 
 ![PMdeletemessage1](https://user-images.githubusercontent.com/72204705/112219516-032aaa00-8c1d-11eb-881c-a0d535e25c2d.png)
@@ -237,6 +249,7 @@ Database:
  
 
 DELETE MESSAGE NOT IN DATABASE:
+
 Call using Postman:
 
 ![PMdeletemessage2](https://user-images.githubusercontent.com/72204705/112219630-2d7c6780-8c1d-11eb-9498-3c20990bad70.png)
@@ -250,6 +263,7 @@ Error thrown:
 ### Get All Messages Between Two Users:
 
 GET MESSAGES BETWEEN TWO USERS:
+
 Call using Postman:
 
 ![PMgetmessages1](https://user-images.githubusercontent.com/72204705/112219782-60266000-8c1d-11eb-86b8-a9c47775929a.png)
@@ -261,6 +275,7 @@ Database:
  
 
 GET MESSAGES BETWEEN SAME USER:
+
 Call using Postman:
 
 ![PMgetmessages2](https://user-images.githubusercontent.com/72204705/112219925-9237c200-8c1d-11eb-8932-f32cba1059cd.png)
@@ -272,6 +287,7 @@ Error thrown:
 
 
 GET MESSAGES BETWEEN REGISTERED USER AND UNREGISTERED USER:
+
 Call using Postman:
 
 ![PMgetmessages3](https://user-images.githubusercontent.com/72204705/112220038-b4314480-8c1d-11eb-9ee6-477e8a805537.png)
