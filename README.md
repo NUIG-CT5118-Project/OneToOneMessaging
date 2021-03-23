@@ -1,6 +1,6 @@
 # Private Messaging Service
 
-##Table of contents
+## Table of contents
 -	Introduction
 -	List of features
 -	How to use
@@ -8,11 +8,11 @@
 -	Technologies
 -	Next version
 
-##Introduction
+## Introduction
 A private messaging service for a company called Perry’s Summer Vacation Goods and Services. 
 Company requires an API to be able to handle messages internally within the company.
 
-##List of features
+## List of features
 -	Create user
 -	Get all users
 -	Get user by ID
@@ -21,13 +21,13 @@ Company requires an API to be able to handle messages internally within the comp
 -	Delete a message
 -	Get all messages between two users
 
-##How to install
+## How to install
 -	Import as Maven project
 -	Update the application.properties file spring.datasource.url to join to a local MySQL schema 
 -	Run SpringbootMessageApplication.java file
 -	Database tables will be created and populated 
 
-##Explanation
+## Explanation
 -	Two tables, User and Message
 -	User table holds records of all users and their associated attributes: user ID, user name and employee number (as a unique identifier of Perry’s employees to prevent duplicate user profiles being created – could be modified to be email/phone number, etc. once it is unique to the employee)
 -	Message table holds records of all messages and their associated attributes: message ID, content of message, datetime message is sent, sender, receiver (sender and receiver cannot be the same)
@@ -64,9 +64,9 @@ Message table
     -	api/messages/findBySenderIDAndReceiverIDOrderByDateSentAsc/{senderID}/{receiverID}
     -	two user IDs are provided. Message table is checked for all messages where the two users are exchanging messages (i.e., where user1 is sender and user2 is receiver and where user2 is sender and user1 is receiver). 
 
-##Examples of use with Postman
+## Examples of use with Postman
 
-###Create user:
+### Create user:
 
 CREATING USER WITH UNIQUE EMPLOYEE NUMBER:
 Call using Postman:
@@ -80,14 +80,14 @@ Database has not been updated:
  
 Error has been thrown:
  
-###Get all users:
+### Get all users:
 
 GET ALL USERS:
 Call using Postman:
  
 All users in database:
  
-###Get a user by ID:
+### Get a user by ID:
 GETTING USER IN DATABASE:
 Call using Postman:
  
@@ -102,7 +102,7 @@ User ID 9 not in database:
 Error thrown:
  
 
-###Create message with one sender and one recipient:
+### Create message with one sender and one recipient:
 
 CREATE MESSAGE WITH REGISTERED, DIFFERENT USERS:
 Database before:
@@ -124,7 +124,7 @@ Call using Postman:
 Error thrown:
  
 
-###Edit a message:
+### Edit a message:
 
 EDIT MESSAGE IN DATABASE:
 Call using Postman:
@@ -181,7 +181,7 @@ Call using Postman:
 Error thrown:
  
 
-##Technologies
+## Technologies
 -	Java 11
 -	Spring Boot
 -	Spring Data JPA
@@ -190,7 +190,7 @@ Error thrown:
 -	Maven
 -	MySQL 
 
-##Next version
+## Next version
 -	Adding additional table Chat and bridging table Chat-User.
 -	Chat to User is many-to-many relationship (a user can belong to many chats and a chat can have many users).
 -	Chat to Message is one-to-many (a chat can have many messages and a message can only belong to one chat).
