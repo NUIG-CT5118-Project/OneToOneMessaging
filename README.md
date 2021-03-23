@@ -3,7 +3,7 @@
 ## Table of contents
 -	Introduction
 -	List of features
--	How to use
+-	How to install
 -	Examples of use
 -	Technologies
 -	Next version
