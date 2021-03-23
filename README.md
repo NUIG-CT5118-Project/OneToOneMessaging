@@ -1,4 +1,4 @@
-#Private Messaging Service
+# Private Messaging Service
 
 ##Table of contents
 -	Introduction
