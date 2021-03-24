@@ -57,6 +57,11 @@ public class MessageServiceImpl implements MessageService{
     @Transactional
     public Message editMessage(Message message) {
 
+        // if message is empty, do not update
+        if (message.getMessageContent().length() == 0 ) {
+            throw new IllegalStateException("Message cannot be empty.");
+        }
+
         // find message by id
         Optional<Message> messageOptional = messageRepository.findById(message.getId());
 
