@@ -61,7 +61,7 @@ Message table
 -	Edit a message: 
     -	PUT method
     -	api/messages/{messageID}
-    -	message content is provided. Message table is checked for an instance of message. If the message exists, only the message content is updated. If the message does not exist, an error is thrown. 
+    -	message content is provided. Message table is checked for an instance of message. If the message exists, only the message content is updated. If the message does not exist, an error is thrown. If the message content provided for edit is empty, an error is thrown.
 -	Delete a message: 
     -	DELETE method
     -	api/messages/{messageID}
@@ -233,7 +233,19 @@ Call using Postman:
 Update in database:
 
 ![DBeditmessage3](https://user-images.githubusercontent.com/72204705/112219465-ed1ce980-8c1c-11eb-967c-deaabad07fc0.png)
- 
+
+
+EDIT MESSAGE EMPTY MESSAGE CONTENT:
+
+Call using Postman:
+
+![PMcreatemessage4](https://user-images.githubusercontent.com/72204705/112295798-26407280-8c8c-11eb-959c-772d387ce4cb.PNG)
+
+
+Error thrown:
+
+![ERcreatemessage4](https://user-images.githubusercontent.com/72204705/112296027-66075a00-8c8c-11eb-8384-8fabb3f9dea4.PNG)
+
 
 ### Delete A Message:
 
