@@ -22,7 +22,7 @@ public class Message {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "message_content", nullable = false)
+    @Column(name = "message_content", nullable = false, length = 10000)
     private String messageContent;
 
     @Column(name = "datetime_sent", nullable = false)
