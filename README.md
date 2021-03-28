@@ -10,7 +10,7 @@
 
 ## Introduction
 A private messaging service for a company called Perry’s Summer Vacation Goods and Services. 
-Company requires an API to be able to handle messages internally within the company.
+Company requires an API to be able to handle messages internally within the company. (Assumption: internal messaging only).
 
 ## List of features
 -	Create user
