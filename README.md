@@ -61,7 +61,7 @@ Message table
 -	Edit a message: 
     -	PUT method
     -	api/messages/{messageID}
-    -	message content is provided. Message table is checked for an instance of message. If the message exists, only the message content is updated. If the message does not exist, an error is thrown. If the message content provided for edit is empty, an error is thrown.
+    -	message content is provided. Message table is checked for an instance of message. If the message exists, only the message content is updated. If the message does not exist, an error is thrown. If the message content provided for edit is empty, an error is thrown. Date sent is not changed for the message (assumption made here).
 -	Delete a message: 
     -	DELETE method
     -	api/messages/{messageID}
