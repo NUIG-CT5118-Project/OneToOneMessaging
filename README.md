@@ -5,6 +5,7 @@
 -	List of features
 -	How to install
 -	Examples of use
+-	Known issues
 -	Technologies
 -	Next version
 
@@ -310,6 +311,11 @@ Error thrown:
 
 ![ERgetmessages3](https://user-images.githubusercontent.com/72204705/112220101-c6ab7e00-8c1d-11eb-9d1f-3c3b312b7ec6.png)
  
+
+## Known issues
+- Handling message creation where a sender or receiver have not been provided
+- Retrieving messages between two users when user(s) have not been provided
+- Input validation - e.g., name (minimum and maximum size)
 
 ## Technologies
 -	Java 11
